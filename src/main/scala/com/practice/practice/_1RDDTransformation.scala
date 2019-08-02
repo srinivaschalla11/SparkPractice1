@@ -23,6 +23,7 @@ object _1RDDTransformation {
 
    val total = rdd1.reduceByKey(_+_)
     total.saveAsTextFile("/home/hduser/data_sets/samp.csv")
+    println("helloWorld")
 
 
   }
